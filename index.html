@@ -6,21 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    
-    
     <img id="gato" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Rsfl6dIGPbojoNrUPdja0WjgGk8ESACRZg&s">    
     <p><span id="cont">0</span></p>
 
-<Script>
-    let cont = 0;
-    let elem = document.getElementById('gato');
-    elem.addEventListener('click', contador);
+    <script>
+        let cont = 0; // Inicializa el contador en 0
+        let elem = document.getElementById('gato');
 
-function contador(){
-  cont++;
-  document.getElementById=('cont').innerHTML = cont;
-  
-}
-</Script>
+        // Cambia esto para pasar la referencia a la función
+        elem.addEventListener('click', contador);
+
+        function contador() {
+            cont++; // Incrementa el contador
+            document.getElementById('cont').innerHTML = cont; // Corrige aquí
+        }
+    </script>
 </body>
 </html>
