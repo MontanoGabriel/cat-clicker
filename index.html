@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <img id="gato" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Rsfl6dIGPbojoNrUPdja0WjgGk8ESACRZg&s">    
+    <p><span id="cont">0</span></p>
+
+<Script>
+    let cont = 0;
+    let elem = document.getElementById('gato');
+    elem.addEventListener('click', contador);
+
+function contador(){
+  cont++;
+  document.getElementById=('cont').innerHTML = cont;
+  
+}
+</Script>
+</body>
+</html>
