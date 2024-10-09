@@ -33,12 +33,12 @@ for(let j=0; j < data.length;j++){
 }*/
 
 
-let cont=69;
-let elem = document.getElementById('gato');
-elem.addEventListener('click', contador());
+let cont = 0;
+    let elem = document.getElementById('gato');
+    elem.addEventListener('click', contador);
 
 function contador(){
-  cont ++;
-  document.getElementById=('cont').innerHTML =cont;
+  cont++;
+  document.getElementById('cont').innerHTML = cont;
   
 }
